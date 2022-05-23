@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa del Mundo 2022 | Encuesta</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/codigos.js"></script>
+    <script src="https://kit.fontawesome.com/7dddb4850e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <script>document.write('<h1 class="animate__animated animate__'+efecto()+'">Copa del Mundo Qatar 2022</h1>')</script>
+    </header>
+    <nav>
+        <div class="animate__animated animate__bounceIn">
+            <a href="index.html">Home</a> <a href="grupos.html">Grupos</a> Encuesta
+        </div>
+    </nav>
+    <main>
+    <section>
+        
+        <form action="" method="post" id="encuesta" enctype="text/plain">
+            <br>Encuesta mundial<br>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre/s" required><br>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido/s" required><br>
+            <input type="number" name="edad" id="edad" placeholder="Edad" min="1" max="150" required><br>
+            <input type="text" name="nacionalidad" id="nacionalidad" placeholder="Nacionalidad" required><br>
+            <input type="email" name="correo" id="correo" placeholder="E-mail" required>
+            <br>¿Quién crees que sera el próximo campeón del mundo?<br>
+            <select name="campeon" id="campeon">
+                <option value="arg">Argentina</option>
+                <option value="ger">Alemania</option>
+                <option value="ksa">Arabia Saudita</option>
+                <option value="bel">Bélgica</option>
+                <option value="bra">Brasil</option>
+                <option value="cmr">Camerún</option>
+                <option value="can">Canadá</option>
+                <option value="kor">Corea del Sur</option>
+                <option value="cro">Croacia</option>
+                <option value="den">Dinamarca</option>
+                <option value="ecu">Ecuador</option>
+                <option value="esp">España</option>
+                <option value="usa">Estados Unidos</option>
+                <option value="fra">Francia</option>
+                <option value="gha">Ghana</option>
+                <option value="eng">Inglaterra</option>
+                <option value="irn">Irán</option>
+                <option value="jpn">Japón</option>
+                <option value="mar">Marruecos</option>
+                <option value="mex">México</option>
+                <option value="ned">Países Bajos</option>
+                <option value="pol">Polonia</option>
+                <option value="por">Portugal</option>
+                <option value="qat">Qatar</option>
+                <option value="sen">Senegal</option>
+                <option value="srb">Serbia</option>
+                <option value="sui">Suiza</option>
+                <option value="tun">Túnez</option>
+                <option value="uru">Uruguay</option>
+            </select>
+            <br>¿Por qué crees que será campeón? (Opcional)<br>
+            <textarea name="opinion" id="opinion" form="encuesta"></textarea><br>
+            <input type="checkbox" class="noticias" value="1" checked> Deseo recibir noticias en mi e-mail.<br>
+            <input type="submit" value="Enviar" class="boton" onclick="validar('encuesta')"> 
+            <input type="reset" value="Borrar todo" class="boton"><br>
+            <br>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p id="enlaces">Sitio y redes oficiales<br>
+            <a href="https://www.qatar2022.qa/en/home" target="_blank" title="Official Website"><i class="fa-regular fa-futbol"></i></a>
+            <a href="https://www.youtube.com/qatar2022" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/roadto2022en" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/roadto2022en" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/roadto2022" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </p>
+        <h5 id="kmp">KMP 2022 © Todos los derechos reservados</h5>
+    </footer>
+</body>
+</html>

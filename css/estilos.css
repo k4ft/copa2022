@@ -7,7 +7,7 @@
 body {
     background-image: url("../img/800px.jpg");
     font-family: 'Gabriola', 'Calibri';
-    font-size: xx-large;
+    font-size: 30pt;
     color: white;
     text-align: center;
     text-shadow: 2pt 0 0 black, -2pt 0 0 black, 0 2pt 0 black, 0 -2pt 0 black, 1pt 1pt black, -1pt -1pt 0 black, 1pt -1pt 0 black, -1pt 1pt 0 black;

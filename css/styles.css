@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: 
+        local('Gabriola'),
+        url(../fonts/Gabriola.ttf) format('truetype');
+}
+body {
+    background-image: url("../img/800px.jpg");
+    font-family: 'Gabriola', 'Calibri';
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    text-shadow: 2pt 0 0 black, -2pt 0 0 black, 0 2pt 0 black, 0 -2pt 0 black, 1pt 1pt black, -1pt -1pt 0 black, 1pt -1pt 0 black, -1pt 1pt 0 black;
+}
+nav {
+    background-color: forestgreen;
+    border: 2px solid white;
+    position: sticky;
+    top: 0;
+}
+nav a:hover {
+    border: 1px dashed white;
+}
+a {
+    color: white;
+    padding: 2px;
+}
+a:hover {
+    padding: 8px 12px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+h3 {
+    background-color: rgba(34, 139, 34, 0.65);
+}
+.contenedor {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+.contenedor iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+img {
+    border: 2px solid black;
+    background-color: white;
+}
+.boton:hover {
+    font-size: large;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#enlaces {
+    background-color: forestgreen;
+    border: 2px solid white;
+}
+#kmp:hover {
+    color: red;
+    transition-property: all;
+    transition-duration: 0.5s;
+}

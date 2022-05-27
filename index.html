@@ -17,7 +17,9 @@
     </header>
     <nav>
         <div class="animate__animated animate__bounceIn">
-            Home <a href="grupos.html">Grupos</a> <a href="form.html"> Encuesta</a>
+            <a href="#">Home</a> 
+            <a href="grupos.html">Grupos</a> 
+            <a href="form.html"> Encuesta</a>
         </div>
     </nav>
     <main>
@@ -29,6 +31,24 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
         </div>
+        <h3 id="countdown"></h3>
+        <script>
+            var countDownDate = new Date("Nov 21, 2022 07:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("countdown").innerHTML = "¡Faltan " + days + " días " + hours + 
+                " horas " + minutes + " minutos " + seconds + " segundos (ARG) para el próximo mundial!";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "¡Comenzó el mundial!";
+                }
+            }, 1000);
+            </script>
     </section>
     </main>
     <footer>

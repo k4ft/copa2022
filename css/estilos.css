@@ -2,7 +2,7 @@
     font-family: 'Gabriola';
     src: 
         local('Gabriola'),
-        url(Gabriola.ttf) format('truetype');
+        url(../fonts/Gabriola.ttf) format('truetype');
 }
 body {
     background-image: url("../img/800px.jpg");
@@ -17,6 +17,9 @@ nav {
     border: 2px solid white;
     position: sticky;
     top: 0;
+}
+nav a:hover {
+    border: 1px dashed white;
 }
 a {
     color: white;

@@ -128,6 +128,9 @@ input, select, textarea {
     border: 3px solid black;
     border-radius: 5px;
 }
+input, select {
+    font-size: 17pt;
+}
 .boton:hover {
     font-size: large;
     transition-property: all;

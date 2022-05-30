@@ -127,12 +127,10 @@ img {
 input, select, textarea {
     border: 3px solid black;
     border-radius: 5px;
-}
-input, select {
     font-size: 17pt;
 }
 .boton:hover {
-    font-size: large;
+    font-size: 20pt;
     transition-property: all;
     transition-duration: 0.5s;
 }

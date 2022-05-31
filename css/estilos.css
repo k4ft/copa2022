@@ -7,7 +7,7 @@
 body {
     background-image: url("../img/800px.jpg");
     font-family: 'Gabriola', 'Calibri';
-    font-size: 30pt;
+    font-size: 30pt; /*Solucionado el problema del espacio debajo del titulo en los grupos*/
     color: white;
     text-align: center;
     text-shadow: 2pt 0 0 black, -2pt 0 0 black, 0 2pt 0 black, 0 -2pt 0 black, 1pt 1pt black, -1pt -1pt 0 black, 1pt -1pt 0 black, -1pt 1pt 0 black;
@@ -118,7 +118,7 @@ img {
     resize: none;
     font-family: 'Gabriola', 'Calibri';
     font-weight: bold;
-    font-size: x-large;
+    font-size: 25pt;
 }
 .noticias {
     width: 15pt;

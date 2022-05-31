@@ -14,56 +14,34 @@ function efecto() {
 
 function validar(formId) {
     const encuesta = document.getElementById(formId);
-    event.preventDefault(); //Para prevenir que se envie el formulario
-
-    let nombre = encuesta.nombre.value;
-    if (nombre=="") {
-        alert("Ingrese su nombre.");
-        return;
-    }
-
-    let apellido = encuesta.apellido.value;
-    if (apellido=="") {
-        alert("Ingrese su apellido.");
-        return;
-    }
+    //event.preventDefault(); Solucionado el problema de envio con la web formsubmit.co
 
     let edad = encuesta.edad.value;
     edad = Math.floor(edad);
     if (edad<1 || edad>150) {
         alert("Ingrese su edad correctamente.");
-        return;
-    }
-
-    let nacionalidad = encuesta.nacionalidad.value;
-    if (nacionalidad=="") {
-        alert("Ingrese su nacionalidad.");
-        return;
+        return false;
     }
 
     let correo = encuesta.correo.value;
     let x = 1;
     let longcorreo = correo.length;
-    if (correo=="") {
-        alert("Ingrese un e-mail válido.");
-        return;
-    }
     for (let i of correo) {
         if (i=="@") {
             let arroba = (correo.indexOf("@"))+2;
             let punto = correo.indexOf(".",arroba);
             if (x==1 || punto<0) {
                 alert("Ingrese un e-mail válido.");
-                return;
+                return false;
             } else {
                 alert("Gracias por participar!");
-                document.location.href="index.html";
+                encuesta.submit();
                 return;
             }
         } else {
             if (x==longcorreo) {
                 alert("Ingrese un e-mail válido.");
-                return;
+                return false;
             }
         }
         x += 1;

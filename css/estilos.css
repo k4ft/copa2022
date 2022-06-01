@@ -119,12 +119,14 @@ img {
     font-family: 'Gabriola', 'Calibri';
     font-weight: bold;
     font-size: 24pt;
+    border: 3px solid black;
+    border-radius: 5px;
 }
 #noticias {
     width: 15pt;
     height: 15pt;
 }
-input, select, textarea {
+input, select {
     border: 3px solid black;
     border-radius: 5px;
     font-size: 17pt;

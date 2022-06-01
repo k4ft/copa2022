@@ -1,4 +1,4 @@
-//version 1.0
+//v1.1
 function efecto() {
     const efectos = ["bounce","flash","pulse","rubberBand","shakeX","shakeY","headShake","swing","tada",
     "wobble","jello","heartBeat","backInDown","backInLeft","backInRight","bounceIn","bounceInDown","bounceInLeft",

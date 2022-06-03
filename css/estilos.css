@@ -4,6 +4,11 @@
         local('Gabriola'),
         url(../fonts/Gabriola.ttf) format('truetype');
 }
+@media screen and (min-width: 650px) {
+    #encuesta {
+        background-image: url("../img/q2022.jpg");
+    }
+}
 body {
     background-image: url("../img/800px.jpg");
     font-family: 'Gabriola', 'Calibri';
@@ -20,10 +25,14 @@ nav {
     top: 0;
 }
 nav a {
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 nav a:hover {
     border: 1px dashed white;
+}
+#menu .activo {
+    background-color: darkgreen;
+    text-decoration: none;
 }
 a {
     color: white;
@@ -64,22 +73,14 @@ img {
     row-gap: 5px;
     column-gap: 5px;
 }
+#titulo {
+    background-color: rgb(0, 70, 0);
+}
 .grupo {
     border: 5px solid black;
     border-radius: 7px;
     background-color: darkgreen;
-    color: white;
     width: 280px;
-}
-#titulo {
-    background-color: rgb(0, 70, 0);
-}
-.partido {
-    border: 1px solid black;
-    background-color: rgba(34, 139, 34, 0.6);
-}
-#horario {
-    color: antiquewhite;
 }
 .fgrupo {
     background-color: rgb(0, 70, 0);
@@ -109,10 +110,21 @@ img {
     transition: max-height 0.2s ease-out;
     border-radius: 7px;
 }
+.partido {
+    border: 1px solid black;
+}
+#horario {
+    color: antiquewhite;
+}
 #encuesta {
     background-color: rgba(34, 139, 34, 0.65);
     border: 2px solid white;
     border-radius: 7px;
+}
+input, select {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 17pt;
 }
 #opinion {
     resize: none;
@@ -125,11 +137,6 @@ img {
 #noticias {
     width: 15pt;
     height: 15pt;
-}
-input, select {
-    border: 3px solid black;
-    border-radius: 5px;
-    font-size: 17pt;
 }
 .boton:hover {
     font-size: 20pt;

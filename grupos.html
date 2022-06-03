@@ -16,9 +16,9 @@
         <script>document.write('<h1 class="animate__animated animate__'+efecto()+'">Copa del Mundo Qatar 2022</h1>')</script>
     </header>
     <nav>
-        <div class="animate__animated animate__bounceIn">
+        <div id="menu" class="animate__animated animate__bounceIn">
             <a href="index.html">Home</a> 
-            <a href="#">Grupos</a> 
+            <a href="#" class="activo">Grupos</a> 
             <a href="form.html">Encuesta</a>
         </div>
     </nav>
@@ -264,17 +264,16 @@
         <script>
             var coll = document.getElementsByClassName("fgrupo");
             var i;
-            
             for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight){
-                  content.style.maxHeight = null;
-                } else {
-                  content.style.maxHeight = content.scrollHeight + "px";
-                } 
-              });
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight){
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+                });
             }
         </script>
     </section>

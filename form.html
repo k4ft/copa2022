@@ -16,15 +16,14 @@
         <script>document.write('<h1 class="animate__animated animate__'+efecto()+'">Copa del Mundo Qatar 2022</h1>')</script>
     </header>
     <nav>
-        <div class="animate__animated animate__bounceIn">
+        <div id="menu" class="animate__animated animate__bounceIn">
             <a href="index.html">Home</a> 
             <a href="grupos.html">Grupos</a> 
-            <a href="#">Encuesta</a>
+            <a href="#" class="activo">Encuesta</a>
         </div>
     </nav>
     <main>
     <section>
-        
         <form action="https://formsubmit.co/b96a2369e4cfcd81320a67d8c98bd472" method="POST" id="encuesta" onsubmit="return validar('encuesta')">
             <br>Encuesta mundial<br>
             <input type="text" name="nombre" id="nombre" placeholder="Nombre/s" required><br>

@@ -7,7 +7,7 @@ function efecto() {
     "rotateInDownLeft","rotateInDownRight","rotateInUpLeft","rotateInUpRight","jackInTheBox","rollIn","zoomIn",
     "zoomInDown","zoomInLeft","zoomInRight","slideInDown","slideInLeft","slideInRight"];
     let x = Math.random();
-    x = x * 47;
+    x *= 47;
     x = Math.floor(x);
     return efectos[x];
 }

@@ -6,13 +6,13 @@ http://168.121.46.90:4000/play/a03y/index.m3u8
 #EXTINF:-1,A&E HD
 http://181.78.19.36:9001/play/a057
 #EXTINF:-1,AMC HD
-http://168.121.46.90:4000/play/a06d/index.m3u8
+http://45.172.16.186:4000/play/a00r/index.m3u8
 #EXTINF:-1,AMERICA TV HD
 http://168.121.46.90:4000/play/a088/index.m3u8
 #EXTINF:-1,Animal Planet HD
 http://8.242.187.233:5800/play/a0d8/index.m3u8
 #EXTINF:-1,Cartoon Network HD
-http://170.247.204.18:8000/play/a05i/index.m3u8
+http://45.172.16.186:4000/play/a00d/index.m3u8
 #EXTINF:-1,Cinecanal HD
 http://168.121.46.90:4000/play/a066/index.m3u8
 #EXTINF:-1,Cinemax HD
@@ -22,9 +22,9 @@ http://168.121.46.90:4000/play/a01n/index.m3u8
 #EXTINF:-1,Classic Rock
 http://168.121.46.90:4000/play/a03w/index.m3u8
 #EXTINF:-1,Discovery HD
-http://170.247.204.18:8000/play/a0e1/index.m3u8
-#EXTINF:-1,Discovery Kids HD
-http://170.247.204.18:8000/play/a0ak/index.m3u8
+http://45.172.16.186:4000/play/a00p/index.m3u8
+#EXTINF:-1,Discovery Kids
+http://45.172.16.186:4000/play/a00b/index.m3u8
 #EXTINF:-1,Discovery Science
 http://168.121.46.90:4000/play/a02d/index.m3u8
 #EXTINF:-1,Discovery Theater HD
@@ -57,20 +57,16 @@ http://168.121.46.90:4000/play/a017/index.m3u8
 http://168.121.46.90:4000/play/a04e/index.m3u8
 #EXTINF:-1,Fox Sports 3
 http://168.121.46.90:4000/play/a018/index.m3u8
-#EXTINF:-1,GOLPERU HD
-http://168.121.46.90:4000/play/a06g/index.m3u8
-#EXTINF:-1,GolTV HD
-http://168.121.46.90:4000/play/a020/index.m3u8
 #EXTINF:-1,Golden
 http://168.121.46.90:4000/play/a02g/index.m3u8
 #EXTINF:-1,Golden HD
 http://168.121.46.90:4000/play/a01y/index.m3u8
 #EXTINF:-1,HBO HD
-http://168.121.46.90:4000/play/a069/index.m3u8
+http://45.172.16.186:4000/play/a002/index.m3u8
 #EXTINF:-1,HBO
 http://168.121.46.90:4000/play/a01m/index.m3u8
 #EXTINF:-1,HBO 2 HD
-http://170.247.204.18:8000/play/a0eu/index.m3u8
+http://45.172.16.186:4000/play/a00s/index.m3u8
 #EXTINF:-1,HBO 2
 http://168.121.46.90:4000/play/a00l/index.m3u8
 #EXTINF:-1,HBO PLUS HD
@@ -78,7 +74,7 @@ http://45.172.16.186:4000/play/a003/index.m3u8
 #EXTINF:-1,HBO Plus
 http://168.121.46.90:4000/play/a00m/index.m3u8
 #EXTINF:-1,HBO XTREME HD
-http://170.247.204.18:8000/play/a0ez/index.m3u8
+http://45.172.16.186:4000/play/a004/index.m3u8
 #EXTINF:-1,HBO XTREME
 http://168.121.46.90:4000/play/a00n/index.m3u8
 #EXTINF:-1,HBO POP HD
@@ -86,7 +82,7 @@ http://170.247.204.18:8000/play/a0f3/index.m3u8
 #EXTINF:-1,HBO Family HD
 http://170.247.204.18:8000/play/a0ey/index.m3u8
 #EXTINF:-1,History Channel HD
-http://181.78.19.36:9001/play/a056
+http://45.172.16.186:4000/play/a00a/index.m3u8
 #EXTINF:-1,HISTORY 2 HD
 http://45.172.16.186:4000/play/a013/index.m3u8
 #EXTINF:-1,I-Sat
@@ -94,13 +90,11 @@ http://168.121.46.90:4000/play/a008/index.m3u8
 #EXTINF:-1,MTV 00s
 http://168.121.46.90:4000/play/a07w/index.m3u8
 #EXTINF:-1,Nat Geo HD
-http://181.78.19.36:9001/play/a04a
-#EXTINF:-1,Nick Jr
-http://168.121.46.90:4000/play/a01t/index.m3u8
+http://45.172.16.186:4000/play/a016/index.m3u8
 #EXTINF:-1,Nickelodeon
 http://168.121.46.90:4000/play/a003/index.m3u8
 #EXTINF:-1,Paramount Network HD
-http://8.242.187.233:5800/play/a0d5/index.m3u8
+http://45.172.16.186:4000/play/a005/index.m3u8
 #EXTINF:-1,RADIO Z
 http://168.121.46.90:4000/play/a08g/index.m3u8
 #EXTINF:-1,Reggae
@@ -108,7 +102,7 @@ http://168.121.46.90:4000/play/a031/index.m3u8
 #EXTINF:-1,Rock Latino
 http://168.121.46.90:4000/play/a02p/index.m3u8
 #EXTINF:-1,STAR CHANNEL HD
-http://181.78.19.36:9001/play/a05d
+http://45.172.16.186:4000/play/a00h/index.m3u8
 #EXTINF:-1,Sony HD
 http://181.78.19.36:9001/play/a058
 #EXTINF:-1,Sony Movies HD
@@ -116,7 +110,7 @@ http://45.182.20.194:8000/play/a05q/index.m3u8
 #EXTINF:-1,Space HD
 http://181.78.19.36:9001/play/a05a
 #EXTINF:-1,Studio Universal HD
-http://168.121.46.90:4000/play/a06b/index.m3u8
+http://45.172.16.186:4000/play/a006/index.m3u8
 #EXTINF:-1,SyFy
 http://168.121.46.90:4000/play/a00i/index.m3u8
 #EXTINF:-1,TBS
@@ -124,7 +118,7 @@ http://168.121.46.90:4000/play/a01d/index.m3u8
 #EXTINF:-1,TCM
 http://168.121.46.90:4000/play/a00c/index.m3u8
 #EXTINF:-1,TNT HD
-http://168.121.46.90:4000/play/a04c/index.m3u8
+http://45.172.16.186:4000/play/a001/index.m3u8
 #EXTINF:-1,TNT
 http://168.121.46.90:4000/play/a00e/index.m3u8
 #EXTINF:-1,TRUTV HD
